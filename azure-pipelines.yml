@@ -10,9 +10,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- 
 - task: CmdLine@2
   inputs:
     script: |
       javac add.java
-      java add.java
+      java add
